@@ -1,0 +1,43 @@
+<!-- templates/about.html-->
+{% extends 'base.html' %}
+
+{%block content%}
+
+{% load static%}
+<section class='section'>
+    <div class='container'>
+        <div class = "columns">
+            <div class ='column is-4'>
+                <h1 class='is-size-1 title'> Sir. Robert the III </h1>
+                <h2 class='is-size-2 subtitle'> a silly name <h2>
+                <p> {% lorem 5 %} </p>
+            </div>
+            <div class ='column is-5'>
+                <img src="{% static 'pages_app/images/komodo.jpg' %}" href='https://en.wikipedia.org/wiki/Komodo_dragon'>
+            </div>
+            <div class ='column is-4'>
+                <h1 class='is-size-2 title'> Dinosoars are better than Unicorns </h1>
+                <p> {% lorem 3 random %} </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class='section'>
+    <div class='container'>
+        <div class = "columns">
+            <div class ='column is-4'>
+            <p> {% lorem 3 random %} </p>
+            </div>
+            <div class ='column is-5'>
+            <p> {% lorem 3 random %} </p>
+            </div>
+            <div class ='column is-4'>
+            <p> {% lorem 3 random %} </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
