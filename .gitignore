@@ -3,3 +3,4 @@
 *.sqlite
 *.json
 pages_app/__pycache__/urls.cpython-39.pyc
+config/__pycache__/settings.cpython-39.pyc
