@@ -1,5 +1,0 @@
-*.pyc
-/pycache/*
-*.sqlite
-*.json
-pages_app/__pycache__/urls.cpython-39.pyc
