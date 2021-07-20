@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     #my apps
-    'pages',
+    'pages_app',
     
     #pre-installed
     'django.contrib.admin',
